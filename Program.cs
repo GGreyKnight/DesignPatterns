@@ -1,16 +1,13 @@
 ﻿using DesignPatterns;
 
-Console.WriteLine("Hello, World!");
+EmailSender emailSender = new EmailSender();
 
-Point point = new Point();
+emailSender.SendEmail("to@gmail.com", "title", "body");
 
-point.x = 5;
-
-Console.WriteLine(point);
-
-Person person = new Person();
-
-class Point
+static BankAccount GetBankAccount()
 {
-    public int x;
+    var bankAccount = new CompanyBankAccount();
+    bankAccount.MakeDeposit(1000);
+
+    return bankAccount;
 }

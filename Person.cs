@@ -10,7 +10,12 @@ namespace DesignPatterns
     {
         string name;
         string age;
-        public string Name { get { return name; } }
-        public string Age { get { return age; } }
+        public string Name { get => name; set => name = value; }
+        public string Age { get => age; }
+
+        public void SayHi()
+        {
+            Console.WriteLine($"Hi {name}!");
+        }
     }
 }
