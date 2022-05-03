@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{01B6CE2B-DCDA-4BFC-AA7B-25BE8F4F2CE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{479FB830-D170-4F7C-AFD9-0039E2C49D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{01B6CE2B-DCDA-4BFC-AA7B-25BE8F4F2CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B6CE2B-DCDA-4BFC-AA7B-25BE8F4F2CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B6CE2B-DCDA-4BFC-AA7B-25BE8F4F2CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479FB830-D170-4F7C-AFD9-0039E2C49D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479FB830-D170-4F7C-AFD9-0039E2C49D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479FB830-D170-4F7C-AFD9-0039E2C49D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479FB830-D170-4F7C-AFD9-0039E2C49D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
